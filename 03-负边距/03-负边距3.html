@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>右边固定，左边自适应的两列布局</title>
+    <style>
+        .container {
+            float: left;
+            width: 100%;
+            margin-right: -300px;
+            background: burlywood;
+        }
+
+        .container .content {
+            background-color: blue;
+            margin-right: 600px;
+        }
+
+        .sidebar {
+            float: left;
+            width: 300px;
+            background: #f00;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            中间内容区域
+        </div>
+    </div>
+    <div class="sidebar">侧边栏区域</div>
+</body>
+
+</html>
